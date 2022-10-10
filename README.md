@@ -35,4 +35,8 @@ https://www.researchgate.net/profile/Zhu-Yonghao
 1. CalcNACsVasp: job_NAC.sh and job_vasp.sh
 
 # NA-MD
+<<<<<<< HEAD
 0. Tully's FSSH: https://github.com/yonghao-zhu/Tully_FSSH
+=======
+0. Tully's FSSH: https://github.com/yonghao-zhu/Tully_FSSH
+>>>>>>> e94cc2ec8bf7101993f23268b692ae790302e3ea
