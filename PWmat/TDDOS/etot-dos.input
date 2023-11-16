@@ -1,0 +1,14 @@
+8 1                        # 并行设置
+job = dos                # 任务类型
+#relax_detail = 1 100 0.01 0 # 优化原子位置
+spin = 1                   # 自旋
+accuracy = high            # 计算精度
+in.atom = atom.config      # 晶体结构
+in.psp1 = Ga.SG15.PBE.UPF  # 赝势 1
+in.psp2 = N.SG15.PBE.UPF    
+mp_n123 = 1 1 1 0 0 0 0  # K 点选取
+ECUT = 50                  # 截断能
+xcfunctional = PBE         # 交换关联泛函
+e_error = 1e-4             # 能量收敛的标准  
+rho_error = 1e-5           # 电荷密度收敛标准
+IN.WG = t
